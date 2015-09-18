@@ -1,5 +1,3 @@
-
-
 # the local www folder is where we'll install WordPress, no need
 # to have that in git
 /www
@@ -10,8 +8,10 @@
 # dev stuff
 localsettings.json
 /build
+/node_modules
 
 # if we use composer, we should ignore vendor
 /vendor
+
 
 
