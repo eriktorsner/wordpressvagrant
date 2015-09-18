@@ -1,0 +1,35 @@
+# Stuff that pops up locally for me - @jeremyfelt
+*.sublime*
+.DS_Store
+.idea
+
+# Because this really is a working directory, ignore vagrant's files
+/.vagrant
+
+# No need to share our mysql data with each other
+/database/data/*
+
+# Log files should be ignored.
+/log/*.log
+
+# No need to share our individual sites with each other
+/www/*
+
+# And no need to share individual SQL files with each other
+*.sql
+*.sql.gz
+
+# BUT....
+
+# We do have some default nginx configs that should be included
+!/config/nginx-config/sites/default.conf
+
+# And we do have a default SQL file that should be included
+!/database/init.sql
+
+# And we provide our default host names in a dat file.
+!/www/vvv-hosts
+
+# And a few of our web directories are important to share.
+/www/default/*
+!/www/default/index.php

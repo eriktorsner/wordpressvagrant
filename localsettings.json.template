@@ -1,0 +1,16 @@
+{
+    "environment": "development",
+    "url": "www.wpvagrant.local",
+    "dbhost": "localhost",
+    "dbname": "wordpress",
+    "dbuser": "wordpress",
+    "dbpass": "wordpress",
+    "wpuser": "admin",
+    "wppass": "admin",
+    "wppath": "/vagrant/www/wordpress-default",
+
+    "url_test": "test.wordpressapp.local",
+    "wppath_test": "/vagrant/www/wordpress-test",
+    "dbname_test": "wordpress-test"
+
+}
